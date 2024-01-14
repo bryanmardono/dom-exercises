@@ -7,6 +7,9 @@ p1.setAttribute('id', 'paragraph');
 //paragraph.style.color = "red";
 container.appendChild(p1);
 document.getElementById('paragraph').style.color = "red";
+//alternatively
+//paragraph = document.querySelector('#paragraph');
+//paragraph.style.color = "red";
 
 const h3 = document.createElement('h3');
 h3.textContent = "I'm a blue h3!";
